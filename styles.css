@@ -1,0 +1,51 @@
+body{
+    transition: background-color 0.7s;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#color-display{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50%;
+    background-color: white;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
+    padding: 4rem;
+    border-radius: 130px;
+    text-align: center;
+    border: 8px solid grey;
+}
+
+section#color-display:hover{
+    border-color: black;
+}
+
+
+section#color-display h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration:underline rgb(1, 1, 82);
+}
+section#color-display h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+section#color-display #new-color{
+    width: 150px;
+    height: 80px;
+    border-radius: 25%;
+    background-color: black;
+    color: beige;
+    font-weight: 900;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+section#color-display #new-color:hover{
+    background-color: darkgray;
+    color: black;
+}
